@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dependencies>
+    <androidPackages>
+        <!-- Ensure that Resolver doesn't inadvertently pull the latest Play Services Ads' SDK that we haven't certified against. -->
+           <androidPackage spec="com.avidly.umphelper:umphelper:1.0.1">
+            <repositories>
+                <repository>https://mvn-bx.dataverse.cn/repository/maven-releases/</repository>
+            </repositories>
+          </androidPackage>
+    </androidPackages>
+    <iosPods>
+   </iosPods>
+</dependencies>
